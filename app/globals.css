@@ -13,3 +13,11 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+
+/* Global CSS targeting the image */
+
+#projects > div > div:nth-child(1) > section > a > img {
+  width: 21%;
+  margin: -3% 26%;
+}
