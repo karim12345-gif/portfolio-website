@@ -33,9 +33,9 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I’m currently working on a personal startup project with my friends, where we’re using
-        <span className="font-medium">React Native, Node.js, Typescript, Styled Components, AWS and vercel.</span> 
-        to build a mobile app for a business idea.
+        <span className="italic">When I'm not coding</span>, I’m currently working on a personal startup project with my friends to build a mobile app for a business idea., where we’re using
+        <span className="font-medium">React Native, Node.js, Typescript, Styled Components, AWS and vercel</span> 
+      
       </p>
     </motion.section>
   );
