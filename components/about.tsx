@@ -24,22 +24,18 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Typescript, JavaScript, React-Query and MongoDB
+          React, Next.js, Typescript, JavaScript, React-Query, Styled Components and MongoDB
         </span>
-        . I am also familiar with Node.js, React native and Prisma. I am always looking to
+        . I am also familiar with Node.js, React native, vercel, AWS and Prisma. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        Engineer / Front-end Engineer / Full Stack Engineer
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games and watching movies. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">React Native and Nest.js</span> 
-        <br />
-        for the backend
+        <span className="italic">When I'm not coding</span>, I’m currently working on a personal startup project with my friends, where we’re using
+        <span className="font-medium">React Native, Node.js, Typescript, Styled Components, AWS and vercel.</span> 
+        to build a mobile app for a business idea.
       </p>
     </motion.section>
   );
