@@ -10,6 +10,7 @@ import maalyAdminInsights from "@/public/Maaly-Insights-admin.png";
 import bankMuscatImg from "@/public/BanksMuscat.png";
 import yelpImage from "@/public/yelpcampHomePage.png";
 import fintechAppImg from "@/public/homeScreen.png";
+import M2 from "@/public/M2.png";
 
 export const links = [
   {
@@ -38,61 +39,59 @@ export const links = [
   },
 ] as const;
 
+// Experience Data
 export const experiencesData = [
   {
     title: "Junior Software Developer - Internship ( MG-Group)",
     location: "Muscat",
-    description:
-      "I worked for 5 months as a junior software developer intern. I learned the basics of web development, C# programming and flutter.",
-      icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(CgWorkAlt),
     date: "Sep 2018 - Jan 2019",
   },
   {
     title: "Junior Software Developer - Internship ( Kalsoft)",
     location: "Muscat",
-    description:
-      "I worked as a front-end developer for 1 month.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020",
+    date: "Jan 2019 - Jul 2019",
   },
   {
     title: "Research Assistant At GUtech(German University Of Technology)",
     location: "Muscat",
-    description:
-      "I worked as Research Project to create smart glasses for blind individuals that will significantly improve the awareness of their surroundings, using Python , Jetson Nano, AI and ML. I also taught students Data Structures, Theory of Computing and Algorithms using Python.",
     icon: React.createElement(LuGraduationCap),
-    date: "2020 - 2022",
+    date: "Sep 2019 - Apr 2020",
   },
   {
-    title: "Junior Software Engineer  ",
+    title: "Software Engineer - Kalsoft",
     location: "Muscat",
-    description:
-      "I worked as a software engineer for 1 year. I worked on a project that was a web application for a company that provides services to other companies. I worked on the front-end using React and the back-end using C# web forms.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020",
+    date: "April 2020-Dec 2021",
   },
   {
-    title: "Middle Front-end Engineer (Telypay)",
+    title: "Full Stack Engineer , Bank Muscat",
     location: "Muscat",
-    description:
-    "I worked as a front-end developer for almost 2 years. I also upskilled to Middle Level Front-end Engineer.",
     icon: React.createElement(CgWorkAlt),
-    date: " October 2022 – present",
+    date: "Jan 2022 - Jun 2023",
   },
 
   {
-    title: "Front-end Engineer ( Bank Muscat)",
+    title: "Senior Front-End Engineer, Telypay (FinTech)",
     location: "Muscat",
-    description:
-    "I worked as a front-end Engineer for almost 2 years.",
     icon: React.createElement(CgWorkAlt),
-    date: " Aug 2022 – present",
+    date: "Jun 2022- Jun 2024",
+  },
+
+  {
+    title: "Senior Front-End Engineer, (M2) MMX Consulting Services L.L.C. (FinTech)",
+    location: "Dubai, UAE",
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2024 - Present",
   },
 
   
 ] as const;
 
+// Projects Data
 export const projectsData = [
+ 
   {
     title: "Fintech App",
     description:
@@ -100,6 +99,16 @@ export const projectsData = [
     tags: [ "react-native","API Routes", "Zustand", "Tanstack", "Query", "FaceID", "Charts", "Clerk"],
     imageUrl: fintechAppImg,
     href: "",
+  },
+
+  {
+    title: "M2 Website",
+    description:
+      "I worked on the landing page, onbarding pages, earn and convert pages in the website.",
+    tags: [ "TypeScript", "Next", "React", "Redux", "Docker", "GitLab",
+    "SQL", "Material UI", "Styled components", "cypress", "jest", "figma and Jenkins", "CI/CD"],
+    imageUrl: M2,
+    href: "https://www.m2.com/en_AE/",
   },
   {
     title: "TelyPay Website",
